@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/1165876da6.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+   <title>BERRA ERTAŞ</title>
+</head>
+<body>
+    <!-- HEADER -->
+    <header> 
+        <div class="navbar">
+            <div class="logo">
+                <h2>
+                    <a href="#">BERRA ERTAŞ</a>
+                </h2>
+            </div>
+            <ul class="nav_links">
+                <li><a href="#anasayfa">ANASAYFA</a></li>
+                <li><a href="#egitim">EĞİTİM</a></li>
+                <li><a href="#favoriler">FAVORİLER</a></li>
+                <li><a href="#kodlama">KODLAMA</a></li>
+                <li><a href="#motivasyon">MOTİVASYON</a></li>
+                <li><a href="#iletisim">İLETİŞİM</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- anasayfa -->
+    <section id="anasayfa">
+        <div class="inner_anasayfa">
+            <div class="child_ansayfa">
+                <h1>BLOG SAYFAMA HOŞ GELDİN! <br><br><span class="span_child">HANGİ KONUDA FİKİR VEREBİLİRİM? </span></h1>
+                <p><br>İletişime geçmek için: <br><br> </p>
+                <button class="btn" button onclick="scrollToSection('iletisim')">BANA ULAŞ</button>     
+            </div>
+            <div class="child_ansayfa">
+                <img src="img/img3.jpg" style="width: 400px ; height: 400px" alt="img3">
+            </div>
+        </div>
+    </section>
+
+    <!-- EĞİTİM -->
+    <section id="egitim">
+        <div class="section_title">
+            <h2> EĞİTİM</h2>
+        </div>
+        <div class="inneregitim">
+            <div class="inneregitim_child">
+                <h3> İLKOKUL</h3>
+                <p>İlkolul eğitimimi Atatürk İlkokulu'nda tamamladım.</p>
+           </div>
+           <div class="inneregitim_child">
+            <h3> ORTAOKUL</h3>
+            <p>Ortaokul eğitimimi Atatürk Ortaokulu'nda tamamladım.</p>
+       </div>
+        <div class="inneregitim_child">
+            <h3> LİSE</h3>
+            <p> Lise eğitimimi Şehit Ömer Halisdemir Anadolu Lisesi'nde tamamladım.</p>
+       </div>
+       <div class="inneregitim_child">
+        <h3> LİSANS</h3>
+        <p>Lisans eğitimime Afyon Kocatepe Üniversitesi'nde devam etmekteyim.</p>
+       </div>
+        </div>
+    </section>
+   
+<!-- FAVORİLER -->
+
+<section id="favoriler">
+    <div class="section_title">
+        <h2> FAVORİLER</h2>
+    </div>
+        <div class="inner_fav">
+            <div class="child_fav">
+                <div class="fav">
+                    <img src="img/manifest.png" style="width: 150px ; height: 200px" alt=""></div>
+                <div class="detail">
+                    <p>FAVORİ DİZİ</p>
+                    </div>
+                <h3>MANIFEST</h3>
+            </div>
+            <div class="child_fav">
+                <div class="fav">
+                    <img src="img/titanic.jpg" style="width: 150px ; height: 200px" alt=""></div>
+                <div class="detail">
+                      <p>FAVORİ FİLM</p>
+                    </div>
+                <h3>TITANIC</h3>
+            </div>
+            <div class="child_fav">
+                <div class="fav">
+                    <img src="img/atesbocegi.jpeg" style="width: 150px ; height: 200px" alt=""></div>
+                <div class="detail">
+                    <p>FAVORİ KİTAP</p>
+                     </div>
+                <h3>ATEŞBÖCEĞİ YOLU</h3>
+            </div>
+            <div class="child_fav">
+                <div class="fav">
+                    <img src="img/aslan kral.png" style="width: 150px ; height: 200px" alt=""></div>
+                <div class="detail">
+                    <p>FAVORİ ANİMASYON</p>
+                    </div>
+                <h3>LION KING</h3>
+            </div></div>
+</section>
+
+
+<!-- KODLAMA -->
+<section id="kodlama">
+    <div class="section_title">
+        <h2> KODLAMA BECERİSİ </h2>
+    </div>
+    <div class="inner_code">
+        <div class="child_code"></div>
+    <div class="child_code2">
+        <div class="single_detail sd_1" onclick="goToLink1()">
+            <p>JAVA</p>
+        </div>
+        <div class="single_detail sd_2" onclick="goToLink2()">
+            <p>C/C#</p>
+        </div>
+        <div class="single_detail sd_3" onclick="goToLink3()">
+            <p>HTML/CSS</p>
+        </div>
+        <div class="single_detail sd_4"onclick="goToLink4()">
+            <p>MATLAB</p>
+        </div>
+    </div>
+<!-- MOTİVASYON -->
+
+<section id="motivasyon">
+    <div class="section_title">
+        <h2> MOTİVASYON KÖŞESİ </h2>
+    </div>
+    <div class="inner_testi">
+        <div class="child_testi">
+            <div class="testi_img">
+               <img src="img/ataturkk.jpeg" style="width: 180px ; height: 200px" alt="">
+            </div>
+            <p>"Umutsuz durumlar yoktur, umutsuz insanlar vardır.  Ben hiçbir zaman umudumu yitirmedim."</p>
+          <br>MUSTAFA KEMAL ATATÜRK 
+        <p> <br>Türk Kurtuluş Savaşı'nın Başkomutanı<p></p>Türkiye Cumhuriyeti'nin Kurucu Babası <p></p> İlk cumhurbaşkanı</p>
+        </div>
+        <div class="child_testi">
+            <div class="testi_img">
+               <img src="img/marissamayer.jpeg" style="width: 200px ; height: 200px"   alt="">
+            </div>
+            <p>“Size inanan insanlarla çalışın, çünkü size inanırlarsa size yatırım yaparlar. Korku ve risk alma duygularını zorlarsanız gerçekten inanılmaz şeyler olabilir.”</p>
+         <br>Marissa Mayer
+        <p> <br>Bilgisayar Bilimci ve Yatırımcı</p>
+        </div>
+ <div class="child_testi">
+            <div class="testi_img">
+               <img src="img/Benjamin-Franklin.png" style="width: 200px ; height: 200px"  alt="">
+            </div>
+            <p>“Koşullar ve olaylar kim olduğumuzu etkilemiş olabilir. Ama ne olduğumuzdan kendimiz sorumluyuz!”</p>
+         <br>Benjamin Franklin
+        <p><br>Filozof</p>
+        </div>
+       <div class="child_testi">
+            <div class="testi_img">
+               <img src="img/staugustine.jpg" style="width: 200px ; height: 200px"  alt="">
+            </div>
+            <p>“İnsanlar dağların zirvelerini, denizlerin dalgalarını, büyük ırmakları ve engin okyanusu görmek için seyahat ederler. Fakat bunun yanı sıra en büyük mucize olan kendi varlıklarını görmeden bu dünyadan göçerler.”</p>
+        <br>St. Augustin
+        <p> <br>Tanrıbilimci</p>
+        </div>
+ </div>
+</section>
+
+<!-- İLETİŞİM -->
+
+<section id="iletisim">
+    <div class="section_title">
+        <h2> BENİMLE İLETİŞİME GEÇ</h2>
+    </div>
+<div class="inner_contact">
+    <div class="child_contact">
+        <img src="img/iletisim.png" alt="">
+    </div>
+<div class="child_contact">
+    <form action="#">
+        <form id="form">
+        <input placeholder="İSİM" type="text" name="fullname" id="">
+        <input placeholder="E-MAİL" type="text" name="fullname" id="">
+        <input placeholder="İLETİŞİM NUMARASI" type="text" name="fullname" id="">
+        <textarea placeholder="MESAJ" name="message" id="" cols="30" rows="10"></textarea>
+       <input type="submit" value="GÖNDER" onclick="showAlert(event)">
+    </form>
+          </form>
+ </div>
+</div>  
+        </section>
+
+<!-- JS -->
+<script src="script.js">  </script>
+
+<!-- FOOTER -->
+<footer>
+    <div class="container">
+        <div class="footer-content">
+
+            <h3>BANA ULAŞ</h3>
+            <p>E-MAİL <a href="http://@gmail.com ">berraertas06@gmail.com</a></p>
+            <p>TELEFON           05555555555</p>
+            
+
+        </div>
+        <div class="footer-content">
+            <h3>HIZLI BAĞLANTILAR</h3>
+             <ul class="navbar">
+                <li> <a href="#anasayfa"> ANASAYFA </a> 
+                 <br> <a href="#egitim"> EĞİTİM  </a> 
+                <br> <a href="#favoriler"> FAVORİLER  </a> 
+               <br> <a href="#motivasyon"> MOTİVASYON</a> 
+                <br><a href="#iletisim"> İLETİŞİM </li> 
+             </ul>
+        </div>
+
+        <div class="footer-content">
+            <h3>BENİ TAKİP ET</h3>
+            <ul class="social-icons">
+             <li><a href="https://github.com/berrae"><i class="fab fa-github"  ></i></a></li>
+             <li><a href="https://www.linkedin.com/in/berra-erta%C5%9F-225a39271/"><i class="fab fa-linkedin"></i></a></li>
+            </ul>
+            </div>
+    </div>
+    <div class="bottom-bar">
+        <p>&copy;  NİSAN 2024 . BERRA ERTAŞ</p>
+    </div>
+</footer>
+</body>
+</html>
